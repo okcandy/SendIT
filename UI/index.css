@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+	box-sizing: inherit;
+}
+
+body{
+	background-color: white;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+p{
+	border: 2px solid turquoise;
+	text-align: center;
+	width: 500px;
+}
+
+
+ul{
+	border-top: 3solid black;
+	border-bottom: 2px solid turquoise;
+	margin: auto;
+	padding: 20pxc;
+}
+
+nav{
+	border-bottom-color: turquoise;
+	margin: 1%;
+	padding: 20px;
+}
+
+h3{
+	width: 50%;
+	float: left;
+	margin: 1%;
+}
