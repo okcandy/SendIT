@@ -1,0 +1,30 @@
+
+table{
+	width: 100%;
+	border: 1px solid turquoise;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+tr{
+	text-align: center;
+}
+
+h1{
+	color: turquoise;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+body{
+	padding: 100px 60px;
+}
+th{
+	border-bottom: 1px solid black;
+}
+a{
+	color: turquoise;
+}
