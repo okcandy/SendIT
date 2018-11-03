@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cancel Order</title>
+		<link rel="stylesheet" href="cancel-order.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	</head>
+	<h1><i class="fas fa-paper-plane"></i></h1>
+	<body>
+		<h2>Cancel Order</h2>
+		<form>
+			<div>
+			<label for="order_id">Enter Order ID:</label>
+			<input type-"text" id="order_id"/>
+			<label for="password">Enter password:</label>
+			<input type-"text" id="password"/>
+
+			</div>
+
+			<div>
+				<p>Please share the reason for cancellation</p>
+			<select id="why" name="why">
+			<option value="options">....</option>
+			<option value="busy">Receiver is busy</option>
+			<option value="time">Took too long</option>
+			<option value="cost">Prices were too high</option>
+			<option value="other">Other alternatives were available</option>
+		</select>
+	</div>
+	<button>Cancel Order</button>
+	<h3>Not sure?<a href="register.html">Home</a> |<a href="detail.html">Order Details</a> |<a href="profile.html">Profile</a> </h3>
+
+	</form>
+	</body>
+</html>
